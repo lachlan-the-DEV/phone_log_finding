@@ -1,2 +1,10 @@
 # phone_log_finding
-I found some poor wording in the iphone logs of IOS 26.
+
+I found a poorly worded log when looking at my phone logs, it states this:
+
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Done sending the reply now
+
+Notice how it ends with "Done sending the reply now", this is poor wording, It should be something more like "Reply transmission completed successfully".
+
+# But what caused this?
+I think this may be from a dev who was bugfixing and forgot to change it back or maybe the dev was inexperienced.
