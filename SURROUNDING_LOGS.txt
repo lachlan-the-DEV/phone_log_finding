@@ -1,0 +1,55 @@
+Here are some of the surrounding logs, more is not included because of cybersecurity reasons (just in case).
+
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Sending 'session attached' event for session "com.apple.sharingd-central-79-139"
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Attached session for "com.apple.sharingd-central-79-139" with session: 0x6ab1dce60, session handle: 0xb7fc0000
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Registering central session "com.apple.sharingd-central-79-139" with backgrounding: off, persistence: off (CBSR) restoreID: (null) <private>
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Overriding AppLaunchType to daemon for com.apple.sharingd
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: getReadyForTCC com.apple.sharingd-central-79-139, appIsBackgroundRunning: 0, isBeingRestored: 0, isApp : 0, appAuthorizationHasBeenChecked: 0
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: CImageCaptureH6::CmdProcessor L:64, Cmd: 0x1a
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Session "com.apple.sharingd-central-79-139" tccRequired : 0
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: ReadyForTCC. TCC required:0 com.apple.sharingd
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Session "com.apple.sharingd-central-79-139" : needsRestrictedStateOperation = 1, powerOnInRestrictedState = 1 , denylistMode = 0, receivesControllerBTClockEvents=0
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: CImageCaptureH6::CmdProcessor L:64, Cmd: 0x1a
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: XpcLeAttConnection::refreshPlistLimitations fBundleIdentifier:com.apple.sharingd fDataAccessClient:com.apple.sharingd onBehalfOfASKApp:0
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: BTSessionMsgHandler::handleAttachMsg name:<private>
+Oct 23 16:49:39 iPhone bluetoothd[102] <Error>: Failed to retrieve signing ID. ManagedConfigOverride state is false.
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Sending 'session attached' event for session "com.apple.sharingd-MBF-79-140-unique-id-SFBLEScanner-Prox"
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Attached session for "com.apple.sharingd-MBF-79-140-unique-id-SFBLEScanner-Prox" with session: 0x6ab1df480, session handle: 0x61f80000
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>:  Address rotation in progress:NO
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Sending the reply now sessionID:61f80000 result:0
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Stopped advertising successfully status=0
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Advertising state change:  Stopping(3) --> Idle(0) stack:ON
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: CImageCaptureH6::CmdProcessor L:64, Cmd: 0x1b
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [MSC] CH = 0x3   Camera set to config -> 2
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.545929] CH = 3 CMD = 0x010e [CISP_CMD_CH_BUFFER_RECYCLE_MODE_SET]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [MSC] CH = 0x3   Dynamic Buffers Recycling Mode Set [EMPTY ONLY]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.545929] CH = 3 CMD = 0x010f [CISP_CMD_CH_BUFFER_RECYCLE_START]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.546051] CH = 3 CMD = 0x0117 [CISP_CMD_CH_BUFFER_POOL_CONFIG_SET]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.546082] CH = 3 CMD = 0x0115 [CISP_CMD_CH_SIF_PIXEL_FORMAT_SET]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: CImageCaptureH6::CmdProcessor L:64, Cmd: 0x2b
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [MSC] CH = 0x3   Sif Pixel Format1, type 0 DmaCompress 0 Companding 0
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.546143] CH = 3 CMD = 0x0125 [CISP_CMD_CH_LOCAL_RAW_BUFFER_ENABLE]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.546204] CH = 3 CMD = 0x0208 [CISP_CMD_CH_AE_FRAME_RATE_MAX_SET]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: CImageCaptureH6::CmdProcessor L:64, Cmd: 0x2
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: CImageCaptureH6::CmdProcessor L:64, Cmd: 0x59
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [MSC] CH = 0x3   AE Frame Rate Max Set [0x3c00]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.546265] CH = 3 CMD = 0x020a [CISP_CMD_CH_AE_FRAME_RATE_MIN_SET]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: CImageCaptureH6::CmdProcessor L:64, Cmd: 0x2
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [MSC] CH = 0x3   AE Frame Rate Min Set [0x3c00]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [ISP: 260.546295] CH = 3 CMD = 0x0d05 [CISP_CMD_CH_FACE_DETECTION_ENABLE]
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: ISPCPU: [MSC] CH = 0x3   FDEnableMask 0x2
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: background advertising sessions:AppleMFG:0 Extended:0
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Done sending the reply now
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>:  StartAdvertising tech=1 handle=0
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>:  Address rotation in progress:NO
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Advertising state change:  Idle(0) --> Starting(1) stack:ON
+Oct 23 16:49:39 iPhone kernel[0] <Notice>: SK[3]: nx_upipe_prov_nx_ctor          nexus 0x0 (com.apple.nexus.upipe)
+Oct 23 16:49:39 iPhone kernel[0] <Notice>: SK[3]: nx_upipe_prov_nx_ctor          create new upipe 0x0 for nexus 0x0
+Oct 23 16:49:39 iPhone kernel[0] <Notice>: SK[3]: nx_create                      nexus 0x0 (upipe:com.apple.nexus.upipe) UUID 58BB9942-7993-4106-B11D-08220433DAAC
+Oct 23 16:49:39 iPhone kernel[0] <Notice>: SK[3]: nxctl_nexus_bind               nexus 0x0 nxb 0x0 port 1 flags 0x0 pid 0 (uniqueid 0) exec_uuid 00000000-0000-0000-0000-000000000000 key 0x0 key_len 0
+Oct 23 16:49:39 iPhone kernel(AppleH10CameraInterface)[0] <Notice>: AppleH10CamIn::AllocateSharedMemorySurface(): remap allowed surface
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Received XPC message "CBMsgIdScan" from session "com.apple.bluetoothd-central-102-10"
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Setting client list to <private>
+Oct 23 16:49:39 iPhone bluetoothd[102] <Notice>: Session com.apple.bluetoothd-central-102-10(Wiprox) Unspecified already scanning, stopping first
+Oct 23 16:49:39 iPhone rapportd(CoreUtils)[100] <Notice>: Activate
+Oct 23 16:49:39 iPhone rapportd(libxpc.dylib)[100] <Notice>: [0xc48d9ae40] activating connection: mach=true listener=false peer=false name=com.apple.Comp
