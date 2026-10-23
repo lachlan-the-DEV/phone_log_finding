@@ -1,4 +1,4 @@
-# phone_log_finding
+# Phone log Finding
 
 I found a poorly worded log when looking at my phone logs, it states this:
 
